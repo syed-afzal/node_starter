@@ -1,0 +1,14 @@
+{
+  "test":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/LocalDBDev"
+  },
+  "development":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/testDBTest"
+  },
+  "production":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/prodDBProd"
+  }
+}
