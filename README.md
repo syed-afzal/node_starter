@@ -50,7 +50,7 @@ Key to remember, in our Dockerfile we exposed port 3000 and also in our code, No
 Run Command to execute a running instance of an image
 
 ```bash
-$ docker run -p 3003:3000 -d node-web-app
+$ docker run -p 3000:3000 -d node-web-app
 ```
 
 It will start your container in the detached mode(running container on background). If you remove `-d` flag it will up the container and you will see the output.
@@ -87,8 +87,6 @@ It will give you the output
 {"code":200,"success":true,"message":"Successfully completed"}
 ``
 
-That's it! Your Node.js app is running in Docker.
-
 :sparkles: 
 ### Bonus
 
@@ -102,6 +100,10 @@ Now when I make any changes in code, It doesn't dynamically updates the api. I h
 Try not to panic, you don't need to it again and after changing any line of code. There are different ways to do it you can make `docker-compose file`
 for this or you can mount your current directory to your container directory where the app is hosted.
 
-I am going with the most easy one, althoug it is not 100% optimal.
+I am going with the most easy one, although it is not 100% optimal.
 
-You can run the command while  
+You can run the command whic enables you to reflect your changes to your container
+
+```bash
+$ docker run -p 3000:3000 -d -v $(pwd):/usr/src/app node-web-app
+```
