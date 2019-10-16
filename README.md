@@ -8,7 +8,8 @@
 - npm start
 
 
-###GuidLine to Build Image with Docker and start it in a container
+## GuidLine to Build Image with Docker and start it in a container
+
 ###### Note: I suppose you are using a linux machine and Docker is installed in your local machine
 
 #### Explanation of `Dockerfile`
@@ -35,7 +36,7 @@ On line 7, we tell docker to execute our app inside the container by using node 
 $ sudo docker build -t node-web-app .
 ```
 
-OK, now that we have our Docker image built, we can use it to launch a container.
+Our Docker images is built now, we can innitate an container isntance of the image.
 
 To see the available images in your linux machine 
 
