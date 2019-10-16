@@ -5,20 +5,20 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const db = require('./db/connection');
+//const db = require('./db/connection');
 
 
 
 const app = express();
 
 //connection from db here
-db.connect();
+//db.connect();
 
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname,  'public')));
 
 //  adding routes
 require('./routes')(app);
