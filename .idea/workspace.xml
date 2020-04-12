@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="531ee0c8-1060-41dc-9738-556f7a6e2537" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/project.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +23,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>cookieParser</find>
-      <find>config</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,12 +38,13 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React_Native_Splash_Screen" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +78,37 @@
       <workItem from="1546776114871" duration="7795000" />
       <workItem from="1571124869800" duration="9744000" />
       <workItem from="1571206793408" duration="103000" />
+      <workItem from="1573805245941" duration="1175000" />
+      <workItem from="1573812830723" duration="1729000" />
+      <workItem from="1573819411463" duration="1991000" />
+      <workItem from="1573821533741" duration="2096000" />
+      <workItem from="1573823739426" duration="1648000" />
+      <workItem from="1573826282561" duration="688000" />
+      <workItem from="1574059405418" duration="1938000" />
+      <workItem from="1574061463205" duration="1748000" />
+      <workItem from="1574063315341" duration="1780000" />
+      <workItem from="1574066754773" duration="1864000" />
+      <workItem from="1574072556007" duration="1617000" />
+      <workItem from="1574074465174" duration="1181000" />
+      <workItem from="1574077447695" duration="1209000" />
+      <workItem from="1574079477085" duration="1589000" />
+      <workItem from="1574081831152" duration="626000" />
+      <workItem from="1574084606768" duration="1911000" />
+      <workItem from="1574146814052" duration="781000" />
+      <workItem from="1574148276527" duration="1497000" />
+      <workItem from="1574150302535" duration="1305000" />
+      <workItem from="1574153773543" duration="1060000" />
+      <workItem from="1574158214990" duration="1775000" />
+      <workItem from="1574160097240" duration="1830000" />
+      <workItem from="1574162052764" duration="757000" />
+      <workItem from="1574167162355" duration="296000" />
+      <workItem from="1574236915987" duration="50000" />
+      <workItem from="1574676809406" duration="403000" />
+      <workItem from="1574678689926" duration="1776000" />
+      <workItem from="1574680706078" duration="1018000" />
+      <workItem from="1574685423444" duration="579000" />
+      <workItem from="1578293908555" duration="1490000" />
+      <workItem from="1578296930909" duration="1123000" />
     </task>
     <servers />
   </component>

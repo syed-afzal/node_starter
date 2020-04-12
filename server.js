@@ -5,14 +5,14 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-//const db = require('./db/connection');
+const db = require('./db/sequelize.connection');
 
 
 
 const app = express();
 
 //connection from db here
-//db.connect();
+db.connect();
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -22,9 +22,9 @@ app.use(express.static(path.join(__dirname,  'public')));
 
 //  adding routes
 require('./routes')(app);
-
-app.listen(3000, () => {
-    console.log("Server is up on port", 3000)
+require('./schemas/index');
+app.listen(3003, () => {
+    console.log("Server is up on port", 3003)
 });
 
 module.exports = app;

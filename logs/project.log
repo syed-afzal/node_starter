@@ -1,3 +1,156 @@
 2019-01-06 19:29:55 INFO  MongoDB connected on mongodb://localhost:27017/testDBTest 
 2019-01-06 19:31:46 INFO  MongoDB connected on mongodb://localhost:27017/testDBTest 
 2019-01-06 19:33:09 INFO  MongoDB connected on mongodb://localhost:27017/testDBTest 
+2019-11-15 17:14:07 INFO  Unable to connect to the database:Unknown database 'dev_DB'
+SequelizeConnectionError: Unknown database 'dev_DB'
+    at Utils.Promise.tap.then.catch.err (/home/syed/Desktop/node_starter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+    at tryCatcher (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) 
+2019-11-15 17:18:23 INFO  Connection has been established successfully. 
+2019-11-15 17:18:45 INFO  Connection has been established successfully. 
+2019-11-15 17:20:05 INFO  Connection has been established successfully. 
+2019-11-15 17:21:08 INFO  Connection has been established successfully. 
+2019-11-15 17:21:31 INFO  Connection has been established successfully. 
+2019-11-15 17:22:26 INFO  Connection has been established successfully. 
+2019-11-15 17:48:25 INFO  Connection has been established successfully. 
+2019-11-15 17:52:14 INFO  Connection has been established successfully. 
+2019-11-15 17:52:53 INFO  Connection has been established successfully. 
+2019-11-15 17:53:51 INFO  Connection has been established successfully. 
+2019-11-15 18:20:22 INFO  Connection has been established successfully. 
+2019-11-15 18:20:37 INFO  Connection has been established successfully. 
+2019-11-15 18:22:12 INFO  Connection has been established successfully. 
+2019-11-15 18:22:42 INFO  Connection has been established successfully. 
+2019-11-15 18:22:52 INFO  Connection has been established successfully. 
+2019-11-15 18:23:17 INFO  Connection has been established successfully. 
+2019-11-15 18:26:28 INFO  Connection has been established successfully. 
+2019-11-15 18:28:05 INFO  Connection has been established successfully. 
+2019-11-15 18:29:44 INFO  Connection has been established successfully. 
+2019-11-15 18:30:20 INFO  Connection has been established successfully. 
+2019-11-15 18:30:36 INFO  Connection has been established successfully. 
+2019-11-15 18:31:04 INFO  Connection has been established successfully. 
+2019-11-15 18:31:36 INFO  Connection has been established successfully. 
+2019-11-15 18:33:06 INFO  Connection has been established successfully. 
+2019-11-15 19:26:20 INFO  Connection has been established successfully. 
+2019-11-15 19:30:40 INFO  Connection has been established successfully. 
+2019-11-15 19:31:38 INFO  Connection has been established successfully. 
+2019-11-15 19:31:58 INFO  Connection has been established successfully. 
+2019-11-18 11:45:16 INFO  Connection has been established successfully. 
+2019-11-18 11:57:05 INFO  Connection has been established successfully. 
+2019-11-18 11:57:40 INFO  Connection has been established successfully. 
+2019-11-18 12:00:48 INFO  Connection has been established successfully. 
+2019-11-18 12:02:45 INFO  Connection has been established successfully. 
+2019-11-18 12:15:47 INFO  Connection has been established successfully. 
+2019-11-18 12:20:04 INFO  Connection has been established successfully. 
+2019-11-18 12:21:13 INFO  Connection has been established successfully. 
+2019-11-18 12:21:53 INFO  Connection has been established successfully. 
+2019-11-18 12:23:44 INFO  Connection has been established successfully. 
+2019-11-18 12:25:05 INFO  Connection has been established successfully. 
+2019-11-18 12:25:41 INFO  Connection has been established successfully. 
+2019-11-18 12:25:44 INFO  process.env.SEQUELIZE_URI 
+2019-11-18 12:25:56 INFO  Connection has been established successfully. 
+2019-11-18 12:25:57 INFO  process.env.SEQUELIZE_URI{"XDG_VTNR":"7","LC_PAPER":"ur_PK","LC_ADDRESS":"ur_PK","XDG_SESSION_ID":"c3","XDG_GREETER_DATA_DIR":"/var/lib/lightdm-data/syed","LC_MONETARY":"ur_PK","CLUTTER_IM_MODULE":"xim","SESSION":"ubuntu","NVM_CD_FLAGS":"","GPG_AGENT_INFO":"/home/syed/.gnupg/S.gpg-agent:0:1","TERM":"xterm-256color","VTE_VERSION":"4205","XDG_MENU_PREFIX":"gnome-","SHELL":"/bin/bash","QT_LINUX_ACCESSIBILITY_ALWAYS_ON":"1","WINDOWID":"69206026","LC_NUMERIC":"ur_PK","UPSTART_SESSION":"unix:abstract=/com/ubuntu/upstart-session/1000/2686","GNOME_KEYRING_CONTROL":"","GTK_MODULES":"gail:atk-bridge:unity-gtk-module","NVM_DIR":"/home/syed/.nvm","USER":"syed","LS_COLORS":"rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:","LC_TELEPHONE":"ur_PK","QT_ACCESSIBILITY":"1","XDG_SESSION_PATH":"/org/freedesktop/DisplayManager/Session0","UNITY_HAS_3D_SUPPORT":"false","XDG_SEAT_PATH":"/org/freedesktop/DisplayManager/Seat0","SSH_AUTH_SOCK":"/run/user/1000/keyring/ssh","DEFAULTS_PATH":"/usr/share/gconf/ubuntu.default.path","XDG_CONFIG_DIRS":"/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg","UNITY_DEFAULT_PROFILE":"unity-lowgfx","DESKTOP_SESSION":"ubuntu","PATH":"/home/syed/.nvm/versions/node/v10.16.3/bin:/home/syed/bin:/home/syed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin","QT_IM_MODULE":"ibus","QT_QPA_PLATFORMTHEME":"appmenu-qt5","LC_IDENTIFICATION":"ur_PK","XDG_SESSION_TYPE":"x11","PWD":"/home/syed/Desktop/node_starter/schemas","JOB":"unity-settings-daemon","XMODIFIERS":"@im=ibus","GNOME_KEYRING_PID":"","LANG":"en_US.UTF-8","GDM_LANG":"en_US","MANDATORY_PATH":"/usr/share/gconf/ubuntu.mandatory.path","LC_MEASUREMENT":"ur_PK","COMPIZ_CONFIG_PROFILE":"ubuntu","IM_CONFIG_PHASE":"1","GDMSESSION":"ubuntu","SESSIONTYPE":"gnome-session","GTK2_MODULES":"overlay-scrollbar","SHLVL":"1","HOME":"/home/syed","XDG_SEAT":"seat0","LANGUAGE":"en_US","LIBGL_ALWAYS_SOFTWARE":"1","GNOME_DESKTOP_SESSION_ID":"this-is-deprecated","UPSTART_INSTANCE":"","UPSTART_EVENTS":"xsession started","XDG_SESSION_DESKTOP":"ubuntu","LOGNAME":"syed","COMPIZ_BIN_PATH":"/usr/bin/","DBUS_SESSION_BUS_ADDRESS":"unix:abstract=/tmp/dbus-m0gYOz9fSm","XDG_DATA_DIRS":"/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop","QT4_IM_MODULE":"xim","NVM_BIN":"/home/syed/.nvm/versions/node/v10.16.3/bin","LESSOPEN":"| /usr/bin/lesspipe %s","INSTANCE":"","UPSTART_JOB":"unity7","XDG_RUNTIME_DIR":"/run/user/1000","DISPLAY":":0","XDG_CURRENT_DESKTOP":"Unity","GTK_IM_MODULE":"ibus","LESSCLOSE":"/usr/bin/lesspipe %s %s","LC_TIME":"ur_PK","LC_NAME":"ur_PK","XAUTHORITY":"/home/syed/.Xauthority","_":"/home/syed/.nvm/versions/node/v10.16.3/bin/node","OLDPWD":"/home/syed/Desktop/node_starter"} 
+2019-11-18 12:26:42 INFO  Connection has been established successfully. 
+2019-11-18 12:26:42 INFO  process.env.SEQUELIZE_URI 
+2019-11-18 12:27:22 INFO  process.env.SEQUELIZE_URImysql://root:test123@localhost:3306/dev_DB 
+2019-11-18 12:27:22 INFO  process.env.SEQUELIZE_URImysql://root:test123@localhost:3306/dev_DB 
+2019-11-18 12:27:22 INFO  ["index.js","user.schema.js"] 
+2019-11-18 12:27:22 INFO  Connection has been established successfully. 
+2019-11-18 12:28:30 INFO  DDDDmysql://root:test123@localhost:3306/dev_DB 
+2019-11-18 12:28:31 INFO  Connection has been established successfully. 
+2019-11-18 12:28:57 INFO  ["index.js","user.schema.js"] 
+2019-11-18 12:28:57 INFO  Connection has been established successfully. 
+2019-11-18 12:31:43 INFO  Connection has been established successfully. 
+2019-11-18 12:34:14 INFO  /home/syed/Desktop/node_starter/schemas 
+2019-11-18 12:34:14 INFO  Connection has been established successfully. 
+2019-11-18 12:36:45 INFO  ["user"] 
+2019-11-18 12:36:45 INFO  Connection has been established successfully. 
+2019-11-18 12:37:21 INFO  ["user","sequelize","Sequelize"] 
+2019-11-18 12:37:21 INFO  Connection has been established successfully. 
+2019-11-18 12:42:49 INFO  Connection has been established successfully. 
+2019-11-18 12:44:42 INFO  Connection has been established successfully. 
+2019-11-18 12:44:50 INFO  Connection has been established successfully. 
+2019-11-18 12:46:58 INFO  Connection has been established successfully. 
+2019-11-18 12:52:01 INFO  Connection has been established successfully. 
+2019-11-18 12:53:33 INFO  Connection has been established successfully. 
+2019-11-18 12:57:01 INFO  Connection has been established successfully. 
+2019-11-18 13:03:45 INFO  Connection has been established successfully. 
+2019-11-18 13:04:49 INFO  Connection has been established successfully. 
+2019-11-18 13:06:13 INFO  Syncing DB 
+2019-11-18 13:06:13 INFO  Connection has been established successfully. 
+2019-11-18 13:07:20 INFO  Syncing DB 
+2019-11-18 13:07:20 INFO  Connection has been established successfully. 
+2019-11-18 13:07:25 INFO  users :  
+2019-11-18 13:07:47 INFO  Syncing DB 
+2019-11-18 13:07:47 INFO  Connection has been established successfully. 
+2019-11-18 13:08:20 INFO  Connection has been established successfully. 
+2019-11-18 13:58:44 INFO  Connection has been established successfully. 
+2019-11-18 14:00:22 INFO  Connection has been established successfully. 
+2019-11-18 14:11:02 INFO  Connection has been established successfully. 
+2019-11-18 15:23:52 INFO  Connection has been established successfully. 
+2019-11-18 15:45:43 INFO  Connection has been established successfully. 
+2019-11-18 16:04:10 INFO  Connection has been established successfully. 
+2019-11-18 16:44:55 INFO  Connection has been established successfully. 
+2019-11-18 17:20:36 INFO  Connection has been established successfully. 
+2019-11-18 17:22:57 INFO  Connection has been established successfully. 
+2019-11-18 17:23:59 INFO  Connection has been established successfully. 
+2019-11-18 17:30:14 INFO  Connection has been established successfully. 
+2019-11-18 17:34:22 INFO  Connection has been established successfully. 
+2019-11-18 18:47:48 INFO  Connection has been established successfully. 
+2019-11-18 18:48:30 INFO  Connection has been established successfully. 
+2019-11-18 18:49:51 INFO  Connection has been established successfully. 
+2019-11-18 18:50:31 INFO  Connection has been established successfully. 
+2019-11-18 19:06:32 INFO  Connection has been established successfully. 
+2019-11-18 19:10:27 INFO  {"name":"John","is_active":true,"gender":"male","user_id":125} 
+2019-11-18 19:11:04 INFO  Connection has been established successfully. 
+2019-11-18 19:11:07 INFO  {"name":"John","is_active":true,"gender":"male","user_id":125} 
+2019-11-18 19:11:33 INFO  Connection has been established successfully. 
+2019-11-18 19:12:48 INFO  Connection has been established successfully. 
+2019-11-18 19:12:55 INFO  {"id":2,"name":"John","gender":"male","is_active":true,"user_id":125,"updated_at":"2019-11-18T14:12:55.898Z","created_at":"2019-11-18T14:12:55.898Z"} 
+2019-11-19 12:26:47 INFO  Unable to connect to the database:Unknown database 'dev_DB'
+SequelizeConnectionError: Unknown database 'dev_DB'
+    at Utils.Promise.tap.then.catch.err (/home/syed/Desktop/node_starter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+    at tryCatcher (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) 
+2019-11-19 15:12:11 INFO  Connection has been established successfully. 
+2019-11-25 15:22:27 INFO  Connection has been established successfully. 
+2019-11-25 15:22:59 INFO  Syncing DB 
+2019-11-25 15:22:59 INFO  Connection has been established successfully. 
+2019-11-25 15:23:30 INFO  Syncing DB 
+2019-11-25 15:23:30 INFO  Connection has been established successfully. 
+2019-11-25 16:15:13 INFO  Syncing DB 
+2019-11-25 16:15:13 INFO  Unable to connect to the database:Unknown database 'dev_DB'
+SequelizeConnectionError: Unknown database 'dev_DB'
+    at Utils.Promise.tap.then.catch.err (/home/syed/Desktop/node_starter/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+    at tryCatcher (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/syed/Desktop/node_starter/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) 
+2019-11-25 16:16:47 INFO  Syncing DB 
+2019-11-25 16:16:48 INFO  Connection has been established successfully. 
+2019-11-25 16:17:48 INFO  Syncing DB 
+2019-11-25 16:17:49 INFO  Connection has been established successfully. 

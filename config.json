@@ -1,14 +1,17 @@
 {
   "test":{
     "PORT": 3000,
-    "MONGODB_URI": "mongodb://localhost:27017/LocalDBDev"
+    "MONGODB_URI": "mongodb://localhost:27017/LocalDBDev",
+    "SEQUELIZE_URI":"mysql://root:test123@localhost:3306/local_DB"
   },
   "development":{
     "PORT": 3000,
-    "MONGODB_URI": "mongodb://localhost:27017/testDBTest"
+    "MONGODB_URI": "mongodb://localhost:27017/testDBTest",
+    "SEQUELIZE_URI":"mysql://root:test123@localhost:3306/dev_DB"
   },
   "production":{
     "PORT": 3000,
-    "MONGODB_URI": "mongodb://localhost:27017/prodDBProd"
+    "MONGODB_URI": "mongodb://localhost:27017/prodDBProd",
+    "SEQUELIZE_URI":"mysql://root:test123@localhost:3306/prod_DB"
   }
 }

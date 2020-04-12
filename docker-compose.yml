@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mysql-development:
+    container_name: MySql
+    restart: always
+    image: mysql:5.7.27
+    environment:
+      MYSQL_ROOT_PASSWORD: test123
+      MYSQL_DATABASE: Testing
+    volumes:
+      # this command will run the script of init.sql from Docker container
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3308:3306"
