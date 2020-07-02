@@ -1,0 +1,13 @@
+{
+  "test":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://mongo:27017/TodoAppTest",
+    "Environment": "TEST"
+
+  },
+  "development":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://afzal:test123@ds047968.mlab.com:47968/users-dev",
+    "Environment": "DEV"
+  }
+}

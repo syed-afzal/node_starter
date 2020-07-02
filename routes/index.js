@@ -1,0 +1,19 @@
+const express = require('express');
+const serverResponses = require('../utils/helpers/server.responses');
+const messages = require('../config/messages');
+var {Todo} = require('../models/todos/todo.model');
+
+const routes = (app) => {
+    const router = express.Router();
+
+    router.get('/', (req, res) => {
+        res.json({
+            success: true,
+            message: 'Api Working',
+        });
+    });
+    //it's a prefix before api it is useful when you have many modules and you want to
+    //differentiate b/w each module you can use this technique
+    app.use('/api', router);
+};
+module.exports = routes;
